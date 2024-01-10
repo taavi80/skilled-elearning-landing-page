@@ -1,13 +1,19 @@
 @forward "globals";
-@use "utils" as breakpoint; 
+@use "utils" as breakpoint;
 
 body {
+  display: grid;
+  place-content: center;
+  min-height: 100vh;
   background-color: #f2f2f2;
-  @include breakpoint.media('md') {
+  @include breakpoint.media("md") {
   }
 }
 
 header,
 main {
   background-color: white;
+  max-width: 375px;
+  width: 100%;
+  margin-inline: auto;
 }
