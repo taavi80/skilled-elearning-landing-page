@@ -46,9 +46,16 @@
       <a class="intro__btn"
         href="#">Get Started</a>
 
-      <img class="intro__img"
-        src="./assets/image-hero-mobile.webp"
-        alt="">
+      <picture>
+        <source media="(min-width: 1440px)"
+          srcset="./assets/image-hero-desktop.webp">
+        <source media="(min-width: 900px)"
+          srcset="./assets/image-hero-tablet.webp">
+        <source srcset="./assets/image-hero-mobile@2x.webp">
+        <img src="./assets/image-hero-mobile.png"
+          alt="Woman drinking coffee">
+      </picture>
+
 
     </section>
   </main>
