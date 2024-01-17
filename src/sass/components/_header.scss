@@ -1,0 +1,38 @@
+@use "../utilities" as breakpoint;
+
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 2.6rem;
+
+  &__logo {
+    max-width: 89px;
+
+    @include breakpoint.media("lg") {
+      max-width: 111px;
+    }
+  }
+
+  &__btn {
+    position: relative;
+    z-index: 2;
+    display: inline-block;
+    background-color: var(--color2);
+    color: var(--white);
+    font-size: var(--fs-16);
+    font-weight: var(--fw-700);
+    padding: 1rem 1.5rem;
+    border-radius: 50px;
+
+    @include breakpoint.media("lg") {
+      font-size: var(--fs-18);
+      padding-inline: 2rem;
+    }
+
+    &:hover {
+      background-color: var(--color1);
+    }
+  }
+}
