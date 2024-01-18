@@ -19,11 +19,11 @@
     max-width: 343px;
     color: var(--color2);
     font-size: var(--fs-40);
-    font-weight: var(--fw-800);
+    font-variation-settings: 'wght' 800;
     margin-bottom: 1.5rem;
 
     @include breakpoint.media("lg") {
-      max-width: 457px;
+      max-width: 506px;
       font-size: var(--fs-56);
     }
   }

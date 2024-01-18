@@ -24,11 +24,6 @@ body {
       max-width: 1440px;
       padding: 1.5rem 10rem;
     }
-
-    
-
-  
-
   }
 
   .footer {
@@ -61,11 +56,11 @@ body {
       font-weight: var(--fw-700);
       padding: 1rem 1.5rem;
       border-radius: 50px;
-      
+
       @include breakpoint.media("lg") {
         font-size: var(--fs-18);
         padding-inline: 2rem;
-        }
+      }
 
       &:hover {
         background: linear-gradient(
