@@ -1,5 +1,12 @@
+@font-face {
+  font-family: "Plus Jakarta Sans";
+  src: url("../../assets/fonts/PlusJakartaSans-VariableFont_wght.ttf")
+    format("truetype");
+  font-display: swap;
+}
+
 :root {
-  // Fonts family
+  // Font family
   --ff-PlusJakartaSans: "Plus Jakarta Sans", sans-serif;
 
   // Font sizes
@@ -10,8 +17,8 @@
   --fs-32: 2rem;
   --fs-40: 2.5rem;
   --fs-56: 3.5rem;
- 
-  // Font weigths
+
+  // Font weights
   --fw-500: 500;
   --fw-700: 700;
   --fw-800: 800;
@@ -22,4 +29,3 @@ a:active,
 a:visited {
   text-decoration: none;
 }
-
