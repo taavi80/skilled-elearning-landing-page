@@ -4,7 +4,7 @@ This is a solution to the [Skilled e-learning landing page challenge on Frontend
 
 ### Screenshot
 
-![](src/design/.png)
+![](src/assets/design/skilled-elearning-landing-page_Desktop.png)
 
 - Live Site URL: https://taavi80.github.io/skilled-elearning-landing-page/
 
