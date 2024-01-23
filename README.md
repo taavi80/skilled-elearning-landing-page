@@ -9,7 +9,7 @@ This is a solution to the [Skilled e-learning landing page challenge on Frontend
 - Live Site URL: https://taavi80.github.io/skilled-elearning-landing-page/
 
 ### Built with
-- SCSS
+- SCSS 
 - CSS custom properties
 - CSS Grid
 - Flexbox
